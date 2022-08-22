@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://oshan:oshan@fuel-app.uylo0.mongodb.net/?retryWrites=true&w=majority
+      database: Fuel-App
+      
+server:
+  port: 8083
+  
+  kafka:
+    bootstrap-servers: 9092
